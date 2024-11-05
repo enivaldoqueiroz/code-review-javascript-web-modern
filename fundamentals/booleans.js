@@ -24,3 +24,9 @@ console.log(!!null); // return false
 console.log(!!NaN); // return false
 console.log(!!undefined); // return false
 console.log(!!(isAtivo = false)); // return false
+
+console.log("para finalizar...");
+console.log(!!(''|| null || 0 || ' '));
+
+let nome = 'Lucas';
+console.log(nome || 'Desconhecido');
